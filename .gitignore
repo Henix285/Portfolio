@@ -1,9 +1,14 @@
 # See https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
 
+node_modules
+dist
+.DS_Store
+.env
 # compiled output
 dist
 tmp
 out-tsc
+
 *.tsbuildinfo
 .expo
 .expo-shared
